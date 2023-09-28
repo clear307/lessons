@@ -1,0 +1,238 @@
+/*скидання стилів*/
+@import url("reset.css");
+
+
+/*підключення шрифтів через fonts.google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+/* font-family: 'Montserrat Alternates', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+/* font-family: 'PT Sans Narrow', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+
+
+/*підключення шрифтів ВРУЧНУ*/
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/Causten-Bold.woff2") format(".woff2"),
+   url("../fons/Causten-Bold.woff") format(".woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/Causten-Light.woff2") format(".woff2"),
+   url("../fons/Causten-Light.woff") format(".woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/Causten-Medium.woff2") format( ".woff2"),
+   url("../fons/Causten-Medium.woff") format( ".woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/Causten-Regular.woff2") format( ".woff2"),
+   url("../fons/Causten-Regular.woff") format( ".woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/Causten-SemiBold.woff2") format( ".woff2"),
+   url("../fons/Causten-SemiBold.woff") format( ".woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+/*===================================================*/
+
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+   color: #5f3995;
+}
+
+p{
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 18px;
+   color: gray;
+   text-align: center;
+   line-height: 1.25;
+}
+
+.title-hiro {
+   /* font-family: 'Montserrat Alternates', sans-serif; - наслідує від body*/
+   font-size: 56px;
+   font-weight: 900;
+   color: blue;
+   text-align: center;
+   text-shadow: 3px 3px 1px #111455;
+   line-height: 1.85;
+}
+
+.after-title{
+   font-size: 24px;
+   font-weight: 600;
+   color: gray;
+   text-align: center;
+   text-shadow: 3px 3px 1px #f3d0c3;
+   line-height: 1.85;
+}
+
+.title-item {
+   font-size: 32px;
+   font-weight: 600;
+   color: rgb(96, 16, 105);
+   text-align: center;
+   line-height: 1.75;
+}
+
+
+
+.title-slogan {
+   text-decoration: overline;  /*чомусть не працює підкреслення */
+   text-decoration: underline;
+   color: rgb(12, 180, 54);
+}
+
+
+.list {
+   font-size: 20px;
+   /* font-weight: 400; - за замовченням*/
+   font-style: italic;
+   line-height: 1.25;
+}
+
+#annotation{
+   font-size: 20px;
+   color: rgb(37, 37, 37);
+   line-height: 1.25;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.subtitle {
+   font-size: 22px;
+   font-weight: 600;
+   color: rgb(222, 93, 7);
+   text-align: center;
+   line-height: 1.25;
+   letter-spacing: 7px;
+}
+
+.text-subtitle1-item{
+   font-family: 'Montserrat Alternates', sans-serif; /* чому тут не перебиває шрифт параграфа? */
+   font-style: italic;
+
+}
+
+.title-content,
+.subtitle1-item {
+   font-size: 18px;
+   font-weight: 700;
+   color: rgb(214, 36, 20);
+   line-height: 1.75;
+}
+.resume{
+   font-size: 18px;
+   word-spacing: 15px;
+   line-height: 1.25;
+}
+
+.text-begin{
+   text-indent: 50px;
+   text-align: left;   /*переписує команду -по центру- для всіх парагафів*/
+}
+
+.text-desc{
+   font-family: "Causten", sans-serif;
+   color: #f89f7e;
+}
+
+
+
+/* друге завдання */
+
+.servis-single,
+.projects-single {
+   text-align: left;
+}
+
+.title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   line-height: 127%; /* 38.1px */
+}
+
+.title-servis {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.title-projects {
+   font-size: 40px;
+   font-weight: 700;
+   }
+
+
+.text-servis>p,
+.text-projects>p {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 146.187%; /* 26.314px */
+   text-align: left;
+}
+
+.text-servis-color {
+   font-family: "Poppins", sans-serif;
+   color: #6B77E5;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
+.list-projects,
+.item-projects {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 146.187%; /* 26.314px */
+}
+
+
