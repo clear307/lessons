@@ -1,0 +1,418 @@
+/*скидання стилів*/
+@import url("reset.css");
+
+/*підключення шрифтів через fonts.google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+/* font-family: 'Montserrat Alternates', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+/* font-family: 'DM Serif Text', serif; */
+
+/*===================================================================================================================*/
+
+body{
+   /* margin: 0 auto;  чому не центруэ весь контект на сторінці???*/
+}
+
+header{
+   display: block;
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: #333232;
+   text-align: center;
+   margin: 0 auto 50px;
+   max-width: 1200px;
+}
+
+
+.title-slogan {
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: rgb(20, 181, 9);
+   font-weight: 500;
+   padding-top: 10px;
+   margin-bottom: 10px;
+}
+.list {
+   font-family: 'DM Serif Text', serif;
+   font-size: 18px;
+   color: #081ee7;
+}
+
+
+.list-menu>li {
+   display: inline-block;
+   color: #081ee7;
+   font-weight: 500;
+   margin-right: 20px;
+}
+
+.menu {
+}
+.book-conteiner {
+   font-family: 'Montserrat Alternates', sans-serif;
+   color: #333232;
+   max-width: 1200px;
+   margin: 0 auto;
+   line-height: 1.25;
+   /* text-align: center; */
+}
+.block-hiro {
+   margin-bottom: 30px;
+}
+
+.hiro-name {
+   display: inline-block;
+   max-width: 800px;
+   text-align: left;
+   vertical-align: middle;
+}
+
+.title-hiro {
+   font-size: 38px;
+   color: #081ee7;
+   font-weight: 700px;
+   text-shadow: 5px 5px 3px #a79bd8;
+   margin-bottom: 10px;
+   line-height: 1.48;
+}
+.after-title {
+   font-family: 'DM Serif Text', serif;
+   font-size: 28px;
+   font-style: italic;
+   line-height: 1.25;
+   padding-left: 10px;
+   padding-right: 150px;
+}
+
+.img-atomni-zvychky{
+   max-width: 200px;
+   margin-right: 40px;
+}
+.block-author {
+   margin-bottom: 40px;
+}
+.author {
+   display: inline-block;
+   max-width: 800px;
+   margin-right: 30px;
+}
+
+.author p {
+   padding: 10px 40px;
+   font-style: italic;
+   overflow: auto;
+   
+}
+
+.author a {
+   display: inline-block;
+   margin-bottom: 10px;
+   font-style: italic;
+   color: #0516ac;
+}
+
+.img-james_clear{
+   max-width: 300px;
+   vertical-align: top;
+}
+
+.title-plan,
+.title-item {
+   font-family: 'Poppins', sans-serif;
+   color: #0516ac;
+   font-size: 24px;
+   font-weight: 600;
+   text-shadow: 7px 5px 4px #dfdcf5eb;
+   margin-bottom: 12px;
+}
+.block-plan {
+   margin-bottom: 40px;
+}
+
+.part {
+   margin-bottom: 50px;
+}
+
+.text-desc>li,
+.text-subtitle1-item>p,
+.part>p {
+   margin-bottom: 20px;
+}
+
+.habits {
+   padding: 40px 60px;
+   
+}
+
+
+
+.contract,
+.habits-tracker {
+   display: inline-block;
+   max-width: 500px;
+   font-weight: 700;
+   line-height: 1.2;
+   font-style: italic;
+   text-align: center;
+   vertical-align: top;
+}
+
+.habits-tracker{
+   margin-right: 30px;
+}
+
+.block-text {
+}
+
+.subtitle {
+   font-size: 26px;
+   color: #047a53;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.subtitle1-item {
+   font-size: 20px;
+   color: #f77e0d;
+   font-weight: 600;
+   line-height: 1.4;
+   margin-bottom: 5px;
+}
+.text-subtitle1-item {
+}
+.text-desc {
+   color: #047a53;
+   padding: 30px;
+}
+
+
+
+.dessc-item1,
+.dessc-item2 {
+   display: inline-block;
+   font-size: 22px;
+   max-width: 500px;
+   vertical-align: top;
+   font-weight: 700;
+   font-style: italic;
+   text-align: left;
+}
+
+.dessc-item1 {
+   margin-right: 20px;
+}
+
+.process-change{
+   text-align: center;
+   padding: 30px;
+}
+
+.text-punct {
+   margin-bottom: 40px;
+
+}
+
+.habit-loops{
+   text-align: center;
+
+}
+.dessc-punct {
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+span {
+   color: #fa4848;
+}
+
+.akcent {
+}
+
+
+.resume {
+   font-size: 22px;
+   padding: 40px;
+   color: #fa4848;
+}
+
+.four-laws {
+   color: #333232;
+}
+
+
+
+
+
+/* друге завдання ...................................................................................................*/
+.lesson-6 {
+   color: #081ee7;
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+/* макет-1============================================================================================================ */
+
+.servis-single {
+   text-align: left;
+   max-width: 692px;
+   margin: 0 auto 80px;
+}
+
+.title-servis {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27; /* 38.1px */
+   margin-bottom: 10px;
+   text-transform: capitalize;
+}
+
+.title-benefits {
+   font-family: "Poppins", sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 1.27; /* 31.75px */
+   color: #37393F;
+   margin-bottom: 15px;
+   }
+
+.text-servis>p {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   line-height: 1.46; /* 26.314px */
+   color: #7D7D7D;
+   text-align: left;
+   margin-bottom: 42px;
+   
+}
+
+.text-servis-color>p,
+.text-benefits-color>p {
+   font-family: "Poppins", sans-serif;
+   color: #6B77E5;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27; /* 25.4px */
+   margin-bottom: 12px;
+}
+
+.text-benefits-color>p {
+   color: #40DDB6;
+}
+
+.text-benefits-color {
+   margin-bottom: 21px;
+}
+
+.list-benefits>li {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+   
+}
+
+.item-benefits-1,
+.item-benefits-2 {
+   margin-bottom: 35px;
+}
+
+.list-benefits{
+   padding-left: 35px;
+   padding-right: 18px;
+}
+
+/* .item-benefits {
+   margin-bottom: 35px;
+} */
+
+.benefits {
+   display: block;
+   text-align: left;
+   font-size: 0; /*не розумію як цей параметн впливає? підгледіла у інших роботах, бо не могла знайти рішення щоб виставити блок з текстоп поруч картинки, наче трохи не вистачало місця, хоча по по пікселям все сходиться
+   692 заг ширина і 331+29+332 */
+}
+
+.text-benefits-block{
+   display: inline-block;
+   max-width: 332px;
+   padding-right: 19px;
+   
+}
+
+.img-consulting{
+   margin-bottom: 37px;
+}
+
+.img-benefits{
+   max-width: 100%;
+   max-width: 331px;
+   margin-right: 29px;
+}
+
+/* макет-2======================================================================================================= */
+
+.prettystones {
+   display: block;
+   margin: 0 auto 80px;
+   max-width: 1169px;
+}
+
+.text-block-prettystones{
+   display: inline-block;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: left;
+   max-width: 563px;
+   margin-right: 38px;
+   vertical-align: middle;
+}
+
+.befor-title-prettystones {
+   font-family: "Inter", sans-serif;
+   font-size: 28px;
+   color: #D06B00;
+   line-height: 1.46;
+   margin-bottom: 5px;
+}
+
+.title-prettystones {
+   font-family: "DM Serif Text", sans-serif;
+   font-size: 59px;
+   color: #0E333D;
+   line-height: 1.46;
+   margin-bottom: 25px;
+   text-transform: capitalize;
+}
+
+.text-prettystones>p{
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   color: #474747;
+   line-height: 1.8;
+   
+}
+
+.img-prettystones {
+   display: inline-block;
+   /* max-width: 568px; */
+   vertical-align: middle;
+}
+
+.img-prettystones-1,
+.img-prettystones-1 {
+   max-width: 273px;
+}
+
+.img-prettystones-1{
+   margin-right: 22px; /*не розумію, не вистачає ширини десь 10px, щоб поставити інлайн-блоки в один ряд, хоча по цифрам все чітко
+   1169-ширина блоку, 563-тест-блок, марджин-правий 38 і (273*2)+22=568-фото-блок*/
+}
