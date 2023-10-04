@@ -327,7 +327,6 @@ span {
 
 .list-benefits{
    padding-left: 35px;
-   padding-right: 18px;
 }
 
 /* .item-benefits {
@@ -343,7 +342,7 @@ span {
 
 .text-benefits-block{
    display: inline-block;
-   max-width: 332px;
+   width: 332px;
    padding-right: 19px;
    
 }
@@ -353,8 +352,7 @@ span {
 }
 
 .img-benefits{
-   max-width: 100%;
-   max-width: 331px;
+   width: 331px;
    margin-right: 29px;
 }
 
@@ -364,6 +362,7 @@ span {
    display: block;
    margin: 0 auto 80px;
    max-width: 1169px;
+   font-size: 0;
 }
 
 .text-block-prettystones{
@@ -371,7 +370,7 @@ span {
    padding-top: 5px;
    padding-bottom: 5px;
    text-align: left;
-   max-width: 563px;
+   width: 563px;
    margin-right: 38px;
    vertical-align: middle;
 }
@@ -403,13 +402,13 @@ span {
 
 .img-prettystones {
    display: inline-block;
-   /* max-width: 568px; */
+   width: 568px;
    vertical-align: middle;
 }
 
 .img-prettystones-1,
 .img-prettystones-1 {
-   max-width: 273px;
+   width: 273px;
 }
 
 .img-prettystones-1{
