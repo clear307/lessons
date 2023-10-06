@@ -19,7 +19,7 @@
 /*===================================================================================================================*/
 
 body{
-   /* margin: 0 auto;  чому не центруэ весь контект на сторінці???*/
+      /* margin: 0 auto;  чому не центруэ весь контект на сторінці???*/
 }
 
 header{
@@ -29,6 +29,11 @@ header{
    text-align: center;
    margin: 0 auto 50px;
    max-width: 1200px;
+   padding-top: 10px;
+}
+
+main {
+   margin-bottom: 80px;
 }
 
 
@@ -36,7 +41,7 @@ header{
    font-family: 'Montserrat Alternates', sans-serif;
    color: rgb(20, 181, 9);
    font-weight: 500;
-   padding-top: 10px;
+   
    margin-bottom: 10px;
 }
 .list {
@@ -53,13 +58,13 @@ header{
    margin-right: 20px;
 }
 
-.menu {
-}
+
 .book-conteiner {
    font-family: 'Montserrat Alternates', sans-serif;
    color: #333232;
    max-width: 1200px;
-   margin: 0 auto;
+   padding: 10px;
+   margin: 0 auto 80px;
    line-height: 1.25;
    /* text-align: center; */
 }
@@ -140,7 +145,6 @@ header{
    margin-bottom: 50px;
 }
 
-.text-desc>li,
 .text-subtitle1-item>p,
 .part>p {
    margin-bottom: 20px;
@@ -148,10 +152,7 @@ header{
 
 .habits {
    padding: 40px 60px;
-   
 }
-
-
 
 .contract,
 .habits-tracker {
@@ -168,8 +169,6 @@ header{
    margin-right: 30px;
 }
 
-.block-text {
-}
 
 .subtitle {
    font-size: 26px;
@@ -185,13 +184,11 @@ header{
    line-height: 1.4;
    margin-bottom: 5px;
 }
-.text-subtitle1-item {
-}
+
 .text-desc {
    color: #047a53;
-   padding: 30px;
+   padding: 10px 50px;
 }
-
 
 
 .dessc-item1,
@@ -230,9 +227,6 @@ header{
 
 span {
    color: #fa4848;
-}
-
-.akcent {
 }
 
 
@@ -291,9 +285,14 @@ span {
    line-height: 1.46; /* 26.314px */
    color: #7D7D7D;
    text-align: left;
-   margin-bottom: 42px;
-   
 }
+
+.text-servis,
+.text-servis-color,
+.text-benefits-color {
+   margin-bottom: 42px;
+}
+
 
 .text-servis-color>p,
 .text-benefits-color>p {
@@ -302,7 +301,6 @@ span {
    font-size: 20px;
    font-weight: 600;
    line-height: 1.27; /* 25.4px */
-   margin-bottom: 12px;
 }
 
 .text-benefits-color>p {
@@ -360,7 +358,7 @@ span {
 
 .prettystones {
    display: block;
-   margin: 0 auto 80px;
+   margin: 0 auto;
    max-width: 1169px;
    font-size: 0;
 }
