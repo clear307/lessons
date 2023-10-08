@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+/* font-family: 'Cormorant Infant', serif; */
+
+
+/*підключення шрифтів ВРУЧНУ*/
+/* font-family: "Causten", sans-serif; */
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/causten-bold-700.woff2") format(".woff2"),
+   url("../fons/causten-bold-700.woff") format(".woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Causten";
+   src: 
+   url("../fons/сausten-Regular-400.woff2") format( ".woff2"),
+   url("../fons/сausten-Regular-400.woff") format( ".woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+
+/* font-family: Core Sans C, sans-serif; ; */
+@font-face {
+   font-family: "Core Sans C";
+   src: 
+   url("../fons/coresansc-65bold-600.woff2") format( ".woff2"),
+   url("../fons/coresansc-65bold-600.woff") format( ".woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}

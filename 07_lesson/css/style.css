@@ -1,0 +1,520 @@
+/* підключення шрифтів */
+@import url("fonts.css");
+
+/*скидання стилів*/
+@import url("reset.css");
+
+
+/*===================================================================================================================*/
+
+body{
+      
+}
+
+header{
+   display: block;
+   margin: 0 auto 50px;
+   padding-top: 10px;
+}
+
+
+footer,
+header {
+   font-family: 'Poppins', sans-serif;
+   color: #333232;
+   font-weight: 600;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #d4d4d4;
+}
+
+
+main {
+   margin-bottom: 80px;
+}
+
+.title-lesson {
+   color: #4b0863;
+   font-weight: 600;
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.list-menu {
+   padding: 20px 0;
+}
+.menu-item {
+   display: inline-block;
+   background-color: #D58417;
+   padding: 10px 15px;
+   margin-right: 30px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px #2d2d2d;
+
+}
+
+/*--------------------- tasck-1 -----------------------------------------------------------------------*/
+
+.conteiner-jewellery {
+   max-width: 1103px;
+   margin: 0 auto 60px;
+   font-size: 0;
+}
+
+
+.block-text-jewellery {
+   display: inline-block;
+   width: 503px;
+   font-family: 'Cormorant Infant', serif;
+   font-weight: 700;
+   text-align: left;
+   vertical-align: middle;
+   line-height: 1;
+   margin-right: 75px;
+   padding: 70px 0;
+}
+
+.subtitle-jewellery {
+   font-size: 20px;
+   color: #D58417;
+   text-transform: uppercase;
+   margin-bottom: 27px;
+}
+
+.title-jewellery {
+   font-size: 64px;
+   color: #000;
+   text-transform: capitalize;
+   margin-bottom: 31px;
+}
+
+.text-jewellery {
+   font-size: 30px;
+   color: #606060;
+   line-height: 1.40; 
+   
+}
+
+.block-img-jewellery {
+   display: inline-block;
+   vertical-align: top;
+   font-size: 0;
+}
+
+.block-woman1,
+.block-woman2 {
+   display: inline-block;
+   border: 1px solid #502203;
+   vertical-align: middle;
+   border-radius: 235px;
+}
+
+.block-woman1 {
+   width: 177px;
+   height: 336px;
+   margin-right: 30px;
+}
+
+.block-woman2 {
+   width: 308px;
+   height: 506px;
+}
+
+img.woman1 {
+   width: 177px;
+   height: 336px;
+   margin-left: -10px;
+   margin-top: 14px;
+}
+
+img.woman2 {
+   width: 307px;
+   height: 500px;
+   margin-left: -11px;
+   margin-top: 19px;
+   
+}
+
+
+/*--------------------- tasck-2,3 -----------------------------------------------------------------------*/
+.conteiner-licencing,
+.conteiner-project {
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+   line-height: 1.46;
+   text-align: left;
+   margin: 0 auto 60px;
+}
+
+.conteiner-licencing {
+   max-width: 1218px;
+   padding: 105px 0;
+}
+
+.conteiner-project {
+   max-width: 830px;
+   padding: 50px 0;
+}
+
+.block-title {
+   margin-bottom: 70px;
+}
+
+.decor-title {
+   font-size: 0;
+   text-align: center;
+   margin-bottom: 16px;
+   
+}
+
+.decor-quadrat {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   margin-right: 5px;
+   
+   
+}
+
+.subject-title {
+   display: inline-block;
+   color: #37393F;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+.big-title-licencing,
+.big-title-project,
+.subtitle-licencing,
+.text-item-licencing {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: #37393F;
+}
+
+.big-title-licencing {
+   font-size: 60px;
+   line-height: 1.21;
+   text-align: center;
+}
+
+.big-title-project {
+   font-size: 40px;
+   line-height: 1.27;
+   text-align: left;
+   margin-bottom: 13px;
+}
+
+.block-graphics,
+.block-photography {
+   margin-bottom: 100px;
+}
+
+.subtitle-licencing {
+   font-size: 40px;
+   line-height: 1.21;
+   margin-bottom: 11px;
+}
+
+.text-graphics {
+   margin-bottom: 32px;
+}
+
+.text-project {
+   margin-bottom: 35px;
+}
+
+.text-project p {
+   margin-bottom: 31px;
+}
+
+.text-photography{
+   margin-bottom: 24px;
+}
+
+.text-item-licencing {
+   font-size: 30px;
+   margin-bottom: 8px;
+}
+
+.block-graphics span,
+.block-photography span {
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   color: #40DDB6;
+   font-weight: 400;
+   padding-left: 15px;
+}
+
+.text-licencing-color1,
+.text-licencing-color2 {
+   color: #40DDB6;
+}
+
+.text-licencing-color1 {
+   margin-bottom: 24px;
+}
+
+.block-fonts span {
+   color: #40DDB6;
+}
+
+.list-project {
+   font-weight: 500;
+   margin-bottom: 35px;
+   padding-left: 16px;
+}
+.item-project {
+   margin-bottom: 31px;
+}
+
+/*------------------------tasck-4---------------------------------------------------------------------------------  */
+
+.conteiner-clothing {
+   max-width: 1240px;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.4px;
+   color: #807D7E;
+   text-align: left;
+   line-height: 1.67;
+   margin: 0 auto 100px;
+}
+
+
+.block-title-clothing {
+   vertical-align: top;
+   font-size: 0;
+   margin-bottom: 30px;
+}
+
+.decor-title-clothing {
+   display: inline-block;
+   width: 6px;
+   height: 28px;
+   border-radius: 10px;
+   background-color: #8A33FD;
+   margin-right: 15px;
+   vertical-align: middle;
+}
+
+.title-clothing {
+   display: inline-block;
+   font-family: "Core Sans C", sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 1.19;
+   letter-spacing: 0.56px;
+   color: #3C4242;
+   
+   text-align: left;
+   vertical-align: middle;
+}
+
+
+.block-text-clothing {
+   padding-left: 21px;
+}
+
+.subtitle-clothing {
+   font-family: "Core Sans C", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   color: #807D7E;
+   margin-bottom: 25px;
+}
+
+.text-clothing p{
+   margin-bottom: 20px;
+}
+.text-clothing span {
+   font-weight: 700;
+   letter-spacing: 0.4px;
+   
+}
+/* --------------------------------------практика--------------------------------------------- */
+
+.border,
+.appearance,
+.decor {
+   max-width: 1600px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   color: #5e046a;
+   text-align: center;
+   margin: 0 auto 60px;
+   padding: 30px;
+}
+
+.border {
+   outline: 2px dashed red;
+
+}
+
+.border h3,
+.appearance h3,
+.decor h3 {
+   font-size: 36px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.solid,
+.dotted,
+.dashed,
+.double {
+   display: inline-block;
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.solid {
+   border: 10px solid rgba(204, 124, 12, 0.993);
+   margin-right: 20px;
+}
+.dotted {
+   border: 10px dotted rgba(204, 57, 12, 0.993);
+   margin-right: 20px;
+}
+.dashed {
+   border: 10px dashed rgba(7, 67, 100, 0.993);
+   margin-right: 20px;
+}
+.double {
+   border: 10px double rgba(7, 100, 58, 0.993);
+}
+
+
+.arrovs {
+   padding: 50px;
+   margin: 0 auto;
+}
+
+.arrov {
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-right: 50px;
+
+}
+
+.arrov-right {
+   border-top: 50px solid transparent;
+   border-left: 100px solid blue;
+   border-bottom: 50px solid transparent;
+}
+
+.arrov-top {
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid blue;
+}
+.arrov-left {
+   border-top: 50px solid transparent;
+   border-right: 100px solid blue;
+   border-bottom: 50px solid transparent;
+}
+.arrov-bottom {
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid blue;
+}
+
+/* ------------------------------------------------------ */
+.appearance {
+   outline: 22px double rgb(7, 165, 25);
+}
+
+.visibility-hidden,
+.opasiti-0,
+.display-none {
+   display: inline-block;
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.visibility-hidden,
+.opasiti-0,
+.display-none {
+   border: 5px solid rgba(98, 96, 98, 0.993);
+   border-radius: 20px;
+   margin-right: 20px;
+}
+
+.visibility-hidden h4,
+.opasiti-0 h4,
+.display-none h4 {
+   font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   
+}
+.visibility-hidden p {
+   visibility: hidden;
+}
+.opasiti-0 p {
+   opacity: 0;
+}
+.display-none p {
+   display: none;
+}
+
+
+/* ------------------------------------------------------------------- */
+.decor {
+   outline: 22px solid rgb(210, 250, 49);
+   
+}
+
+.decor p {
+   display: inline-block;
+   width: 800px;
+   /* text-align: center;
+   vertical-align: middle; */
+   border: 3px solid #1d0f9b;
+   padding: 30px 10px;
+   margin-bottom: 20px;
+   box-shadow: 15px 10px 5px #2d2d2d;
+   opacity: 0.5;
+}
+
+
+
+
+
+
+/* ---------------------------------- */
+.footer-title {
+   padding: 20px 0;
+   margin-bottom: 15px;
+}
+
+.footer-btn {
+   width: 400px;
+   height: 30px;
+   margin: 0 auto 30px;
+}
+
+.footer-button {
+   display: inline-block;
+   color: #40DDB6;
+   padding: 10px 30px;
+   background-color: #1d0f9b;
+   border-radius:40px 15px;
+   box-shadow: inset 5px 5px 12px #a2a6f2;
+   
+}
+
+.block-footer p {
+   margin-bottom: 20px;
+}
+
