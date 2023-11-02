@@ -1,0 +1,728 @@
+/* підключення шрифтів */
+@import url("fonts.css");
+
+/*скидання стилів*/
+@import url("reset.css");
+
+
+/*=======================================================*/
+
+body{
+      
+}
+
+header{
+   display: block;
+   margin: 0 auto 50px;
+   padding-top: 10px;
+}
+
+
+footer,
+header {
+   font-family: 'Poppins', sans-serif;
+   color: #333232;
+   font-weight: 600;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #d4d4d4;
+}
+
+
+main {
+   margin-bottom: 80px;
+}
+
+.title-lesson {
+   color: #4b0863;
+   font-weight: 600;
+   font-size: 36px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.list-menu {
+   padding: 20px 0;
+}
+.menu-item {
+   display: inline-block;
+   background-color: #D58417;
+   padding: 10px 15px;
+   margin-right: 30px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px #2d2d2d;
+}
+
+.menu-item:hover {
+   background-color: #0dc32b;
+   box-shadow: 5px 5px 10px #0c5c19;
+}
+
+.menu-item:focus {
+   outline: 3px dotted brown;
+   color: #40ddb6;
+}
+
+/*--------------------- tasck-1 ---------------------------*/
+
+.consulting__section,
+.businessplan__section,
+.work__section {
+   font-family: 'Inter', sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+   padding: 80px 0;
+   }
+
+.consulting__conteiner,
+.work__conteiner {
+   max-width: 1220px;
+   /* padding: 0 5px; */
+   margin: 0 auto;
+   outline: 1px dashed gray;
+   }
+
+.consulting__block {
+   display: inline-block;
+   width: 478px;
+
+   min-height: 1320px;
+   background-color: #F4F4F4;
+   margin-right: 44px;
+   }
+
+
+.consulting__wrap {
+   display: inline-block;
+   max-width: 692px;
+   vertical-align: top;
+}
+
+.consulting__content {
+   margin-bottom: 40px;
+   }
+
+.content__img {
+   width: 100%;
+   margin-bottom: 40px;
+}
+
+.consultingwebsite__decortitle {
+   /* font-family: 'Inter', sans-serif; */
+   color: #37393F;
+   font-weight: 500;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+}
+
+.content__decortitle {
+   text-align: left;
+}
+
+.work__decortitle {
+   text-align: center;
+}
+
+.content__decortitle::before {
+   content: "";
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40ddb6;
+   margin-right: 6px;
+}
+
+.work__decortitle::before {
+   content: "";
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40ddb6;
+   margin-right: 6px;
+}
+
+.consultingwebsite__title {
+   font-family: 'Poppins', sans-serif;
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27;
+   text-transform: capitalize;
+   margin-bottom: 15px;
+}
+
+.content__text > *:last-child {
+   margin-bottom: 0;
+}
+.benefits__list > *:last-child {
+   margin-bottom: 0;
+}
+.businessplan__list> *:last-child {
+   margin-bottom: 0;
+}
+
+
+
+
+.content__text p {
+   margin-bottom: 42px;
+}
+.content__text p:first-child{
+   margin-bottom: 32px;
+}
+
+.title-content-color,
+.title-benefits-color,
+.title-businessplan-item,
+.title-work__item {
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.title-content-color {
+   color: #6B77E5;
+   margin-bottom: 15px;
+}
+
+.title-benefits-color {
+   color: #40DDB6;
+   margin-bottom: 21px;
+}
+
+.title-work__item {
+   color: #37393F;
+   font-size: 25px;
+}
+
+/* --------------------------------------------------------------- */
+.consulting__benefits {
+   font-size: 0;
+   margin-bottom: 50px;
+   vertical-align: middle;
+   }
+
+.benefits__img {
+   width: 331px;
+   margin-right: 29px;
+   }
+
+.benefits__block {
+   display: inline-block;
+   max-width: 332px;
+   vertical-align: top;
+   text-align: left;
+   }
+
+.benefits__list {
+   font-size: 18px;
+   }
+
+.benefits__item {
+   margin-bottom: 30px;
+   }
+
+.benefits__item::before {
+   content: "";
+   display: inline-block;
+   width: 27px;
+   height: 27px;
+   background: url("../img/check-mark.png");
+   vertical-align: middle;
+   margin-right: 8px;
+}
+
+/* ----------------------tasck-2------------------------- */
+.jewels__section {
+   font-family: 'Cormorant Infant', serif;
+   color: #000;
+   font-size: 24px;
+   font-weight: 700;
+   max-width: 1220px;
+   margin: 0 auto;
+   padding: 150px 0;
+}
+
+.jewels__conteiner {
+   outline: 1px dashed gray;
+   font-size: 0;
+}
+
+.jewels-left__block {
+   display: inline-block;
+   width: 488px;
+   height: 138px;
+   padding-top: 150px;
+   vertical-align: top;
+}
+.jewels_title {
+   font-size: 60px;
+   line-height: 1.15;
+}
+
+.jewels__text {
+font-size: 46px;
+line-height: 1.13; 
+margin-bottom: 31px;
+}
+
+.earrings__title,
+.earrings__preis {
+font-size: 24px;
+line-height: 1.40;
+}
+
+
+.earrings__title {
+   margin-bottom: 6px;
+}
+
+
+.jewels-01__link {
+}
+
+.jewels-02__link {
+   
+}
+
+.jewels-middle__block {
+   display: inline-block;
+   width: 334px;
+   padding-top: 32px;
+   margin-right: 55px;
+   vertical-align: top;
+}
+.jewels-right__block {
+   display: inline-block;
+   width: 334px;
+}
+
+
+.earrings-01__img,
+.earrings-02__img {
+   width: 334px;
+   height: 381px;
+   border: 1px solid #000;
+   margin-bottom: 34px;
+}
+
+.earrings-01__img:hover {
+   border: 1px solid #f5f11c;
+   box-shadow: 15px 15px 25px #f5f11c;
+}
+.earrings-02__img:hover  {
+   border: 1px solid #f5f11c;
+   box-shadow: 15px 15px 25px #f5f11c;
+}
+
+
+.img-01,
+.img-02 {
+   width: 334px;
+   height: 381px;
+   margin-top: 9px;
+   margin-left: 10px;
+}
+
+
+
+
+/* ----------------------tasck-3------------------------- */
+
+
+.businessplan__conteiner {
+   max-width: 1220px;
+   font-size: 0;
+   margin: 0 auto;
+   outline: 1px dashed gray;
+   }
+
+
+.businessplan__block {
+   display: inline-block;
+   width: 478px;
+   min-height: 990px;
+   background-color: #F4F4F4;
+   margin-right: 69px;
+   }
+
+.businessplan__content {
+   display: inline-block;
+   max-width: 673px;
+   text-align: left;
+   vertical-align: top;
+   font-size: 18px;
+   padding: 140px 0 40px;
+   }
+
+.businessplan-text,
+.businessplan__list {
+   margin-bottom: 48px;
+}
+
+.businessplan__list {
+   }
+
+.businessplan__item {
+   padding: 28px 38px;
+   margin-bottom: 31px;
+   border: 1px solid #E3E3E3;
+   }
+
+
+.title-businessplan-item {
+   color: #37393F;
+   margin-bottom: 12px;
+   text-align: left;
+}
+
+.title-businessplan-item::before {
+   content: "";
+   display: inline-block;
+   width: 27px;
+   height: 27px;
+   background: url("../img/check-mark.png");
+   vertical-align: middle;
+   margin-right: 19px;
+}
+
+.businessplan__item .content__text {
+   padding-left: 46px;
+}
+.btn-textblock {
+   width: 200px;
+   height: 65px;
+   padding: 21px 35px;
+   background-color: #6B77E5;
+}
+.batton {
+   display: inline-block;
+   color: #FFF;
+   text-align: center;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------- tasck-4 ---------------------------*/
+
+.work__section {
+}
+
+.work__conteiner {
+   padding: 150px 0 138px;
+}
+
+
+/* .work__decortitle::before {
+   content: "";
+} */
+
+
+.work__title {
+   text-align: center;
+   margin-bottom: 41px;
+}
+
+.work-item__block {
+   text-align: center;
+}
+.work__list {
+   font-size: 0;
+   padding-top: 36px;
+}
+
+.work__list > *:last-child {
+   margin-right: 0;
+}
+
+.work__item {
+   display: inline-block;
+   font-size: 18px;
+   width: 386px;
+   height: 301px;
+   padding: 58px 43px;
+   margin-right: 31px;
+   background-color: #F4F4F4;
+}
+
+.work__text {
+   margin-bottom: 37px;
+}
+
+.title-work__item {
+   margin-bottom: 16px;
+}
+
+
+.work-left__item::before {
+   content: "";
+   background-image: url("../img/icon-1-work.jpg");
+   width: 72px;
+   height: 72px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   display: block;
+   margin: -94px auto 22px;
+   
+}
+.work-middle__item::before {
+   content: "";
+   background-image: url("../img/icon-2-work.jpg");
+   width: 72px;
+   height: 72px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   display: block;
+   margin: -94px auto 22px;
+
+}
+.work-right__item::before {
+   content: "";
+   background-image: url("../img/icon-3-work.jpg");
+   width: 72px;
+   height: 72px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   display: block;
+   margin: -94px auto 22px;
+
+}
+
+.work__link {
+   color: #6B77E5;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+.work__link:active {
+   text-decoration: underline;
+}
+
+.work__link:visited {
+   color: #7D7D7D;
+   
+}
+
+
+
+
+/* ---------------практика-------------------------------- */
+
+
+/* ---------------footer------------------- */
+
+.footer-title {
+   padding: 20px 0;
+   margin-bottom: 15px;
+}
+
+.footer-btn {
+   width: 400px;
+   height: 30px;
+   margin: 0 auto 30px;
+}
+
+.footer-button {
+   display: inline-block;
+   color: #40DDB6;
+   padding: 10px 30px;
+   background-color: #1d0f9b;
+   border-radius:40px 15px;
+   box-shadow: inset 5px 5px 12px #a2a6f2;
+   
+}
+
+.block-footer p {
+   margin-bottom: 20px;
+}
+
+/* =============================practic================================================== */
+
+.practice {
+   max-width: 1200px;
+   font-family: 'Poppins', sans-serif;
+   margin: 0 auto 50px;
+   line-height: 1.5;
+   outline: 2px dashed rgb(124, 65, 65);
+   padding: 40px;
+}
+.title-practice {
+   font-size: 26px;
+   color: #37393F;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+
+.state-pseudoclasses>h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.position-pseudoclasses>h3 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.state-list>li {
+   display: inline-block;
+   width: 500px;
+   min-height: 200px;
+   border: 2px solid gray;
+   border-radius: 20px;
+   box-shadow: 5px 2px 10px #000;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   padding: 15px;
+   /* font-size: 0; */
+}
+
+
+.hover:hover {
+   border: 2px dashed rgb(21, 6, 94);
+   box-shadow: 5px 2px 10px #0616a0;
+   background-color: #91c1f4;
+
+}
+.focus:focus {
+   outline: 2px dashed rgb(225, 151, 2);
+   background-color: #f2c640;
+   color: #4b0863;
+   font-weight: 600;
+   font-size: 20px;
+}
+.active:active {
+   border: 2px dashed rgb(94, 6, 74);
+   box-shadow: 5px 2px 10px #68027c;
+   background-color: #f4b3ef;
+   color: #68027c;
+   font-size: 20px;
+   font-weight: 600;
+}
+.visited a:visited {
+   display: inline-block;
+   color: gray;
+   font-style: oblique;
+   text-decoration: line-through;
+}
+.target>a {
+   display: inline-block;
+   padding: 10px 15px;
+   margin-right: 10px;
+   border-radius: 20px;
+}
+
+.target1 {
+   background-color: #32950a;
+   box-shadow: 5px 5px 10px #0b2602;
+}
+
+.target2 {
+   
+}
+
+.target2:target {
+   border: 2px dashed #32950a;
+   background-color: #76fc73;
+   padding: 20px;
+}
+
+/* -------------------------------------------------------------------------------- */
+.position {
+   margin-bottom: 30px;
+   outline: 2px dashed fuchsia;
+   padding: 15px;
+}
+.position>p {
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+
+.position>ul {
+   margin-bottom: 20px;
+}
+.position>li {
+   padding: 3px 30px 3px;
+}
+.position1 li:first-child {
+   color: #fa5044;
+   font-weight: 600;
+}
+.position2 h4:first-of-type  {
+   color: #fa5044;
+   font-size: 24px;
+   font-weight: 600;
+}
+.position3 li:last-child {
+   color: #0616a0;
+   font-weight: 600;
+   text-decoration: underline;
+}
+.position4 a:last-of-type {
+   color: #212222;
+   font-weight: 600;
+   background-color: #0dc32b;
+   padding: 10px;
+   border-radius: 10px;
+}
+.position5 li:nth-child(4) {
+   color: #0d6e98;
+   font-size: 22px;
+   outline: 1px dashed #0d6e98;
+   display: inline-block;
+}
+
+.position5 h4:nth-child(odd) {
+   background-color: rgb(119, 121, 115);
+}
+.position5 h4:nth-child(even) {
+   background-color: greenyellow;
+}
+
+
+/* ?????????????? не розумію чому не спрацьовує тут :not ??????????????????*/
+.position6 li:not(position-not) {
+   color: #c81111; 
+} 
+
+.position6>h4 {
+   display: inline-block;
+   width: 260px;
+   padding: 10px;
+   border: 1px solid gray;
+   text-align: center;
+   background-color: #8ed7f6;
+}
+
+.position6 h4:not(:last-child) {
+   margin-right: 10px;
+}
